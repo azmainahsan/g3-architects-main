@@ -206,7 +206,7 @@
 
 .sf-poster {
     margin-left: 145px;
-    
+
 }
 
 .exp-btn {
@@ -220,7 +220,7 @@
     background-color: #FF900E;
     border-radius: 8px;
     border: 0;
-    position:relative ;
+    position: relative;
     top: -130px;
     left: -90px;
 }
@@ -232,3 +232,48 @@
 }
 
 /* end of this container */
+
+/* facts container styles */
+
+.fact-container {
+    margin-top: 130px;
+    padding-left: 240px;
+}
+
+.facts-info {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.facts {
+    padding: 100px 0 180px 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 125px;
+}
+
+.fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 45px 60px 45px;
+    text-align: center;
+}
+.fact:hover{
+    transform: rotate(10deg);
+    background-color: orangered;
+}
+.fact-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+
+.fact-info {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    white-space: nowrap;
+}
+/* facts styles end  */
