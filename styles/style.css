@@ -327,10 +327,11 @@
 }
 
 /* personal-container styles end  */
-.footer{
+.footer {
     margin: 0 240px;
     margin-bottom: 100px;
 }
+
 .footer-info {
     border: 0;
     background-color: #FFF4E7;
@@ -341,3 +342,122 @@
 }
 
 /* Footer styles end  */
+
+@media only screen and (max-width: 576px) {
+    *{
+    }
+    ]
+    .banner-container {
+        padding-top: 0;
+        padding-left: 0;
+        background-color: rgba(255, 144, 14, 0.1);
+    }
+
+    .banner-menu {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .banner-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        list-style: none;
+        font-weight: 500;
+        font-size: 18px;
+        color: #424242;
+    }
+
+    .section-title {
+        font-weight: 500;
+        font-size: 26px;
+        color: #131313;
+        align-items: left;
+    }
+
+    .banner-poster {
+        width: 100%;
+
+    }
+
+    .team-gallery {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 0;
+
+    }
+    .team-img {
+        
+        padding-left: 0;
+        position: relative;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .features-details{
+        padding-left: 400px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .features,
+    .team-gallery {
+        grid-template-columns: 1fr;
+
+    }
+    .sf-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sf-poster {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        width: 400px;
+        height: 400px;
+
+    
+    }
+    .fact-container {
+        margin-top: 1130px;
+        padding-left: 0px;
+    }
+    .facts {
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsors-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    
+    }
+    .personal-container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        margin: 0;
+    }
+    .footer{
+        margin: 10px;px;
+    }
+    .footer-info{
+        padding: 10px;
+        text-align: left;
+        white-space:nowrap;
+      
+
+    }
+
+    
+}
+
+/* end of media styles */
+/* thank you */
