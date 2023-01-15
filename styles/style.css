@@ -154,7 +154,6 @@
 .sf-container {
     padding-left: 240px;
     padding-right: 240px;
-    /* position: absolute; */
     width: 1440px;
     height: 1059px;
     display: flex;
@@ -259,10 +258,12 @@
     padding: 45px 45px 60px 45px;
     text-align: center;
 }
-.fact:hover{
-    transform: rotate(10deg);
+
+.fact:hover {
+    transform: rotate(15deg);
     background-color: orangered;
 }
+
 .fact-title {
     font-weight: 600;
     font-size: 45px;
@@ -276,4 +277,44 @@
     line-height: 23px;
     white-space: nowrap;
 }
+
 /* facts styles end  */
+
+/* sponsors section styles */
+.sponsors-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsors-info {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+.sponsors-icon{
+    display: flex;
+    justify-content: space-around;
+    gap: 155px;
+    padding: 0 240px;
+    margin-bottom: 130px;
+   
+}
+.icon{
+    filter: grayscale(100%);
+}
+
+/* sponsors section styles end */
+
+/* personal section */
+.personal-container{
+    padding: 0 250px;
+    display: flex;
+}
+.personal-info{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border: 1px solid orange;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
