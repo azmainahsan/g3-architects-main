@@ -1,0 +1,78 @@
+/* utilities */
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/*---------------- header styles Start ---------------- */
+/* banner styles */
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    /* line-height: 53px; */
+    color: #131313;
+}
+
+.banner {
+    padding: 50px 230px;
+    background-color: rgba(255, 144, 14, 0.1);
+    text-align: center;
+
+}
+
+.banner-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+
+}
+
+/* Architects styles */
+
+.architects {
+    padding-top: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.architects-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+.architects-info{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 30px 50px;
+    width: 180px;
+    height: 64px;
+}
+
+/*------------------- header styles end ----------------- */
+
+
+
